@@ -1,0 +1,1045 @@
+
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+
+    <style>
+        .questionQuestion {
+            font-size: 20px;
+        }
+
+        .questionTitle {
+            font-size: 20px;
+        }
+        
+        .tabTitle {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <article class="tabs">
+            <ul class="nav nav-tabs nav-tabs-redBorders">
+                                        <li class="active">
+                        <a  href="#1" data-toggle="tab"><span class="tabTitle">Variables & Data Types</span></a>     
+                    </li>
+                                            <li >
+                        <a  href="#2" data-toggle="tab"><span class="tabTitle">Conditions & Loops</span></a>     
+                    </li>
+                                            <li >
+                        <a  href="#3" data-toggle="tab"><span class="tabTitle">Arrays & Strings</span></a>     
+                    </li>
+                                            <li >
+                        <a  href="#5" data-toggle="tab"><span class="tabTitle">Functions</span></a>     
+                    </li>
+                                        
+            </ul> <!-- tabs names list -->
+
+            <div class="tab-content">
+                                            <div id="1" class="tab-pane fade in active">
+                        <div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading1">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion1"
+                                        href="#collapse1" aria-expanded="true"
+                                        aria-controls="collapse1">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 1</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse  in" role="tabpanel"
+                                aria-labelledby="heading1">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program that declares two integer variables x and y. The user must enter their values and then exchange their values (swap x and y) X takes the value of Y, and Y takes the value of X.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading2">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion1"
+                                        href="#collapse2" aria-expanded="false"
+                                        aria-controls="collapse2">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 2</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading2">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program that reads an integer value x and displays whether x is an even or odd number.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading5">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion1"
+                                        href="#collapse5" aria-expanded="false"
+                                        aria-controls="collapse5">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 3</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse5" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading5">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program that finds the square of the distance between two points.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading6">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion1"
+                                        href="#collapse6" aria-expanded="false"
+                                        aria-controls="collapse6">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 4</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse6" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading6">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program that reads a real number X and displays its category:<br />
+i. Category A if (0 < = X < 37)<br />
+ii. Category B otherwise                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading7">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion1"
+                                        href="#collapse7" aria-expanded="false"
+                                        aria-controls="collapse7">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 5</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse7" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading7">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        A four-digit number ABCD is called Lucky if A + B = C + D.<br />
+Write a program that asks the user to enter a four-digit number n and prints whether n is a Lucky number or not. <br />
+<br />
+Example:<br />
+The number 3719 is a Lucky number since 3 + 7 = 1 + 9<br />
+The number 3521 is not a Lucky number since (3 + 5) != (2 + 1).                                         </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading8">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion1"
+                                        href="#collapse8" aria-expanded="false"
+                                        aria-controls="collapse8">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 6</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse8" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading8">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program that rounds a real number entered on the keyboard to two digits after the decimal point.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading9">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion1"
+                                        href="#collapse9" aria-expanded="false"
+                                        aria-controls="collapse9">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 7</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse9" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading9">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program that reads a real value and displays its opposite.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading10">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion1"
+                                        href="#collapse10" aria-expanded="false"
+                                        aria-controls="collapse10">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 8</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse10" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading10">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program that reads and displays your first name and date of birth on two different lines.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading11">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion1"
+                                        href="#collapse11" aria-expanded="false"
+                                        aria-controls="collapse11">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 9</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse11" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading11">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program that declares two integer variables. The user must enter their values. The program then calculates their sum, their multiplication, and displays the results.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading12">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion1"
+                                        href="#collapse12" aria-expanded="false"
+                                        aria-controls="collapse12">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 10</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse12" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading12">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program that reads two integers X and Y, and does the following:<br />
+- X takes the value of Y if (X <= Y or Y is a divisor of X)<br />
+- Y takes the value of X if (X> = 30 and Y is a multiple of X)                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading13">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion1"
+                                        href="#collapse13" aria-expanded="false"
+                                        aria-controls="collapse13">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 11</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse13" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading13">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a C program that reads three integers a,b and c, and displays on the screen the result<br />
+of the expression ab/c. ( c can not be 0 )<br />
+<br />
+Execution example:<br />
+Enter three numbers A, B and C: 3 5 10<br />
+a * b / c = 3 * 5/10 = 1.5                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading14">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion1"
+                                        href="#collapse14" aria-expanded="false"
+                                        aria-controls="collapse14">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 12</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse14" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading14">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program that reads six real values a, b, c, u, v, w and then displays the solution of the following equations:<br />
+a*X + b*Y + c = 0<br />
+u*X + v*Y + w = 0                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading15">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion1"
+                                        href="#collapse15" aria-expanded="false"
+                                        aria-controls="collapse15">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 13</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse15" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading15">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program that reads two integer values x and y and displays the absolute value of (x-y).<br />
+<br />
+Execution example:<br />
+Enter x: -5<br />
+Enter y: 4<br />
+The absolute value obtained = 9                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading16">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion1"
+                                        href="#collapse16" aria-expanded="false"
+                                        aria-controls="collapse16">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 14</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse16" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading16">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program that displays the digit of the tens of a number entered on the keyboard.<br />
+<br />
+Same question for the hundreds.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                         
+                    </div>
+                </div>
+                                        <div id="2" class="tab-pane fade in ">
+                        <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading17">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion2"
+                                        href="#collapse17" aria-expanded="true"
+                                        aria-controls="collapse17">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 1</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse17" class="panel-collapse collapse  in" role="tabpanel"
+                                aria-labelledby="heading17">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which reads a sequence of real values filled by the user and stops by displaying "FINISHED" when the sum of these values exceeds 100.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading18">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion2"
+                                        href="#collapse18" aria-expanded="false"
+                                        aria-controls="collapse18">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 2</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse18" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading18">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which reads a positive integer value N and indicates if N is a perfect number or not.<br />
+N is a perfect number if N = the sum of its strict divisors (without the number itself).<br />
+<br />
+example:<br />
+6 = 1 + 2 + 3, so 6 is a perfect number.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading19">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion2"
+                                        href="#collapse19" aria-expanded="false"
+                                        aria-controls="collapse19">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 3</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse19" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading19">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which reads a positive integer value N, calculates and shows the result of the expression: 1 + 4 + 7 + 10 +... + N<br />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading20">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion2"
+                                        href="#collapse20" aria-expanded="false"
+                                        aria-controls="collapse20">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 4</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse20" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading20">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which indicates if a positive number N, filled by the user, is prime or not.<br />
+N is a prime number if its only divisors are 1 and N.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading21">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion2"
+                                        href="#collapse21" aria-expanded="false"
+                                        aria-controls="collapse21">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 5</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse21" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading21">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which reads a sequence of positive real numbers.<br />
+The program stops when the user fills a negative value and show the maximum of these numbers.                                         </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading22">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion2"
+                                        href="#collapse22" aria-expanded="false"
+                                        aria-controls="collapse22">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 6</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse22" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading22">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        The Fibonacci sequence is a sequence of numbers where the first two numbers in the sequence are 1 and 1. <br />
+Then, each additional Fibonacci number is the sum of the two previous numbers in the sequence: 1, 1, 2, 3, 5, 8, 13, 21,...<br />
+<br />
+U1=1, U2=1<br />
+Un=Un-1 +Un-2 for n>2<br />
+<br />
+Write a program that reads an integer n and then calculates and prints on the screen the value number n of the Fibanacci sequence.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading23">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion2"
+                                        href="#collapse23" aria-expanded="false"
+                                        aria-controls="collapse23">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 7</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse23" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading23">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        An integer number is divisible by 9 if the sum of its digits is divisible by 9.<br />
+<br />
+1- Write a program that reads a positive integer, finds the number of digits of this integer and using the criteria above, discovers if it is divisible by 9 and then prints out the results.<br />
+<br />
+Example: if the user enters 57883<br />
+The program displays:<br />
+57883 has 5 digits.<br />
+The sum of digits is : 31<br />
+It is not divisible by 9<br />
+<br />
+2- Write a program that uses the criteria above to display all the positive integers between 100 and 1000 that are divisible by 9.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading24">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion2"
+                                        href="#collapse24" aria-expanded="false"
+                                        aria-controls="collapse24">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 8</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse24" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading24">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which reads 10 real numbers. The program must then show the maximum and the minimum of these numbers.                                         </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading25">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion2"
+                                        href="#collapse25" aria-expanded="false"
+                                        aria-controls="collapse25">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 9</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse25" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading25">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which reads two positive integer values and shows their GCD (Greatest Common Divisor) and their LCM (Least Common Multiple).                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading26">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion2"
+                                        href="#collapse26" aria-expanded="false"
+                                        aria-controls="collapse26">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 10</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse26" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading26">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program that asks the user to enter an integer making sure it is a positive number (a negative integer should not be accepted), and checks if this number is ABUNDANT. <br />
+<br />
+A number 𝑛 is said to be abundant when the sum of its divisors (including the number itself) is greater than its double (2𝑛).<br />
+<br />
+Example: 12 is abundant<br />
+(1 + 2 + 3 + 4 + 6 + 12 > 24)                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                         
+                    </div>
+                </div>
+                                        <div id="3" class="tab-pane fade in ">
+                        <div class="panel-group" id="accordion3" role="tablist" aria-multiselectable="true">
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading27">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion3"
+                                        href="#collapse27" aria-expanded="true"
+                                        aria-controls="collapse27">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 1</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse27" class="panel-collapse collapse  in" role="tabpanel"
+                                aria-labelledby="heading27">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which fills an array of size 10. This program must calculate and show the sum and the multiplication of its elements.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading28">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion3"
+                                        href="#collapse28" aria-expanded="false"
+                                        aria-controls="collapse28">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 2</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse28" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading28">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which allows the user to fill an integer number N and an array of size 10. This program must indicate the number of occurrence of N in the array.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading29">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion3"
+                                        href="#collapse29" aria-expanded="false"
+                                        aria-controls="collapse29">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 3</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse29" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading29">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which fills an array of integers of size 10.<br />
+This program must show the maximum and the minimum of the elements of the array, the number of times the maximum appears and the number of times the minimum appears in the array.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading30">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion3"
+                                        href="#collapse30" aria-expanded="false"
+                                        aria-controls="collapse30">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 4</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse30" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading30">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which fills an array of integers of size 15. This program must show the elements of the array which are multiple of 7.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading31">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion3"
+                                        href="#collapse31" aria-expanded="false"
+                                        aria-controls="collapse31">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 5</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse31" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading31">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which declares an array of integers of maximum size 20, asks the user<br />
+to enter its effective size (how many elements the user wants to enter, should be less than 20) and allows the user to fill his values.<br />
+This program should not accept values greater than 150. In other words, if the user fills a value<br />
+greater than 150, the program asks for a new value from the user.                                         </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading32">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion3"
+                                        href="#collapse32" aria-expanded="false"
+                                        aria-controls="collapse32">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 6</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse32" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading32">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program that reads a string s and prints its reverse.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading34">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion3"
+                                        href="#collapse34" aria-expanded="false"
+                                        aria-controls="collapse34">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 7</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse34" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading34">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program that reads a string s and copies s to a new array called t. <br />
+Remember to copy the \0                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading35">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion3"
+                                        href="#collapse35" aria-expanded="false"
+                                        aria-controls="collapse35">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 8</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse35" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading35">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program that reads two strings s1 and s2, and then prints on the screen the number of times s1 appears in s2, and the position of each occurrence of s1 in s2.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading36">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion3"
+                                        href="#collapse36" aria-expanded="false"
+                                        aria-controls="collapse36">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 9</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse36" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading36">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        A palindrome string is a string that, after eliminating its spaces, reads the same backward or forward. Example: "never odd or even".<br />
+<br />
+Write a program that asks the user to enter a string and checks if the string is a palindrome or not.<br />
+<br />
+Example Run:<br />
+Enter a string: starcomedybydemocrats<br />
+starcomedybydemocrats is a palindrome                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading37">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion3"
+                                        href="#collapse37" aria-expanded="false"
+                                        aria-controls="collapse37">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 10</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse37" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading37">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write an algorithm that reads a string s and a character c, prints on the screen the number of times c appears in s and the first position of c in s.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading38">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion3"
+                                        href="#collapse38" aria-expanded="false"
+                                        aria-controls="collapse38">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 11</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse38" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading38">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which lets the user to fill two arrays of size 10. This program indicates if these two arrays are identical or not.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading39">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion3"
+                                        href="#collapse39" aria-expanded="false"
+                                        aria-controls="collapse39">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 12</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse39" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading39">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which requires of the user to fill an array of integers of size 15. This program must replace the elements of the array whose value are equal to 1 or to 100 by the value 0.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading40">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion3"
+                                        href="#collapse40" aria-expanded="false"
+                                        aria-controls="collapse40">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 13</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse40" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading40">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which fills an array of real numbers (float or double) of size 20. The program must show the elements of the array whose index is even.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading41">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion3"
+                                        href="#collapse41" aria-expanded="false"
+                                        aria-controls="collapse41">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 14</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse41" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading41">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which fills an array of real numbers of size 20. The program must show the elements of the array whose index is multiple of 5.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading42">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion3"
+                                        href="#collapse42" aria-expanded="false"
+                                        aria-controls="collapse42">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 15</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse42" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading42">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which reads an array of 10 integers then sorts the array in an increasing order.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading43">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion3"
+                                        href="#collapse43" aria-expanded="false"
+                                        aria-controls="collapse43">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 16</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse43" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading43">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a program which asks the user to enter an array of 10 integers then re-arrange them as follows: Odd integers first, then even integers.<br />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                         
+                    </div>
+                </div>
+                                        <div id="5" class="tab-pane fade in ">
+                        <div class="panel-group" id="accordion5" role="tablist" aria-multiselectable="true">
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading44">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion5"
+                                        href="#collapse44" aria-expanded="true"
+                                        aria-controls="collapse44">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 1</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse44" class="panel-collapse collapse  in" role="tabpanel"
+                                aria-labelledby="heading44">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a function that returns the average of the grades given in an array.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading45">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion5"
+                                        href="#collapse45" aria-expanded="false"
+                                        aria-controls="collapse45">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 2</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse45" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading45">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Write a function: char encrypt (char c, int k), that encrypts a character as follows: <br />
+if c is an alphabetic character, shift c by k to the right (c = c + k) otherwise shift c by k to the left (c = c - k)<br />
+<br />
+Write a main function and test the function.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading46">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion5"
+                                        href="#collapse46" aria-expanded="false"
+                                        aria-controls="collapse46">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 3</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse46" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading46">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        1- Write a function int MAX (int a, int b) which returns the maximum of 2 integers.<br />
+2- Test the MAX function in the main() function.<br />
+3- Write a program that reads 10 numbers from the user, use the MAX() function to find the maximum of these numbers.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading47">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion5"
+                                        href="#collapse47" aria-expanded="false"
+                                        aria-controls="collapse47">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 4</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse47" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading47">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        1. Write the function prime that checks if a number is prime or not. The function returns 1<br />
+if the number is prime and 0 otherwise.<br />
+2. Write a function ReadArray that fills an array of size M. All the elements of the array should be between 10 and 100.<br />
+3. Write a main program that declares two arrays of maximum size 20. The program<br />
+should prompt the user for the effective arrays size (<= 20), read their<br />
+values using the function and then check if the two arrays contain the same number of prime numbers.                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                                                    <!--panel-default a panel is a row in the accordion-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading48">
+                                <h3 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion5"
+                                        href="#collapse48" aria-expanded="false"
+                                        aria-controls="collapse48">
+                                        <i class="fa fa-minus more-less" aria-hidden="true"></i>
+                                        <span class="questionTitle">Question 5</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse48" class="panel-collapse collapse " role="tabpanel"
+                                aria-labelledby="heading48">
+                                <div class="panel-body">
+                                    <p class="questionQuestion">
+                                        Simply turn any other exercise into a function or group of functions :).<br />
+<br />
+Good Luck!                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                         
+                    </div>
+                </div>
+                            </div> <!-- tab content div end-->
+        </article> <!-- article end-->
+    </div> <!-- container end-->
+
+    <script src="assets/jquery.min.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
+    <script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+.nav-tabs-redBorders {
+  border-bottom: 1px solid red;
+  margin-top: 50px;
+}
+.nav-tabs-redBorders > li {
+  float: right;
+}
+.nav-tabs-redBorders > li > a {
+  border-radius: 0;
+  border: solid red 1px;
+  border-bottom-color: transparent;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  color: #ccc;
+}
+.nav-tabs-redBorders > li > a:hover {
+  text-decoration: none;
+}
+.nav-tabs-redBorders li.active > a,
+.nav-tabs-redBorders li.active > a:focus,
+.nav-tabs-redBorders li.active > a:hover {
+  color: #ccc;
+  border: solid red 1px;
+  border-bottom-color: transparent;
+  cursor: default;
+  text-decoration: none;
+}
+.nav-tabs-redBorders li.active > a:before,
+.nav-tabs-redBorders li.active > a:focus:before,
+.nav-tabs-redBorders li.active > a:hover:before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: red;
+  top: 0;
+  left: 0;
+}
